@@ -1,0 +1,341 @@
+html {
+  cursor: url("../assets/cursors/Cursor.cur"), auto;
+}
+
+body {
+  font-family: "Vinque Regular", sans-serif;
+  background-image: url("../assets/b02_background.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+body a {
+  cursor: url("../assets/cursors/Hand.cur"), auto;
+  text-decoration: none;
+}
+body a:hover {
+  text-decoration: underline;
+}
+
+@font-face {
+  font-family: "Vinque Regular";
+  src: url("../fonts/vinque rg.otf") format("truetype");
+}
+.header {
+  width: 100%;
+}
+
+.scoreContainer {
+  float: inline-start;
+  width: 15%;
+  /* Adjust as needed */
+  background-color: rgba(153, 153, 153, 0.3411764706);
+  padding: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  border: 1px solid rgba(117, 115, 115, 0.6901960784);
+}
+.scoreContainer img {
+  position: relative;
+  float: right;
+  width: 74px;
+  height: 74px;
+  padding: 2px 2px 2px 2px;
+  margin-bottom: -5px;
+  margin-top: -32px;
+}
+
+.gameTitle {
+  float: left;
+  width: 67%;
+  /* Adjust as needed */
+  text-align: center;
+}
+
+.floatRight {
+  float: right;
+  width: 15%;
+  /* Adjust as needed */
+  background-color: rgba(153, 153, 153, 0.3411764706);
+  padding: 0px;
+  font-size: 24px;
+  font-weight: bold;
+  border: 1px solid rgba(117, 115, 115, 0.6901960784);
+}
+.floatRight a {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.floatRight .musicIcon {
+  float: right;
+  position: relative;
+  margin-top: -18px;
+  cursor: url("../assets/cursors/Hand.cur"), auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.mainWindow {
+  width: 30%;
+  height: 20%;
+  margin: auto;
+  border: 12px solid rgb(14, 11, 11);
+  position: absolute;
+  top: 280px;
+  left: 590px;
+}
+
+#darken {
+  background-color: black;
+}
+
+.sectionRight {
+  float: right;
+  width: 30%;
+}
+
+.scrollable-section {
+  max-height: 690px;
+  /* Set the maximum height of the scrollable section */
+  overflow-y: auto;
+  /* Enable vertical scrolling */
+  overflow-x: hidden;
+  background-color: rgba(32, 178, 171, 0.642);
+  /* Set the background color */
+  border: 3px dashed darkslategray;
+}
+
+.shopButton {
+  cursor: url("../assets/cursors/Hand.cur"), auto;
+  background-color: #b5b5b5;
+  transition: all 0.2s ease-in-out;
+  border-radius: 10px;
+  width: 94%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.shopButton:hover {
+  background-color: #c7c7c7;
+  transition: 0.2x ease-in-out;
+}
+
+.shopButton #image {
+  /* width: 155px;
+  height: 155px; */
+  background-color: rgba(103, 158, 101, 0);
+  width: 25%;
+}
+
+.shopButton img {
+  width: 80px;
+  height: 80px;
+}
+
+.shopButton #nameAndCost p {
+  margin: 0px;
+  width: 60%;
+}
+
+.shopButton #nameAndCost p:first-of-type {
+  font-size: 24px;
+}
+
+.shopButton #amount {
+  font-size: 48px;
+  color: #595959;
+  font-family: roboto;
+  width: 15%;
+}
+
+.unselectable {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.shopButton #yeild {
+  position: relative;
+  text-align: left;
+  width: 50%;
+  margin: auto;
+  /* font-size: 16px; */
+  /* color: #595959; */
+  /* font-family: roboto; */
+}
+
+.store-title {
+  text-align: center;
+  font-size: 30px;
+  margin-top: -6px;
+  margin-bottom: 3px;
+  background-color: rgba(250, 120, 33, 0.2470588235);
+  border-top: 3px dashed darkslategray;
+  margin: 8px 0px 0px 0px;
+  border: 1px solid black;
+}
+
+.store {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: cadetblue;
+  border: 1px solid black;
+  border-top: cadetblue;
+}
+.store .upgrade {
+  width: 54px;
+  height: 54px;
+  border: 1px solid #313131;
+  padding: 4px 4px;
+  margin: 4px 24px 0px 4px;
+  align-items: center;
+}
+.store .upgrade :hover {
+  transform: scale(1.2);
+}
+
+#container {
+  position: relative;
+  margin: auto;
+  margin-left: 8.5%;
+  max-width: 400px;
+  max-height: 180px;
+  padding: 0px;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+@font-face {
+  #container {
+    font-family: "Vinque Regular";
+    src: url("../fonts/vinque rg.otf") format("truetype");
+  }
+}
+
+h3 {
+  text-align: center;
+  margin-top: -8px;
+  color: black;
+}
+
+#message {
+  align-items: center;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+p#sender {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+p#text {
+  font-size: 14px;
+  color: #555;
+}
+
+.dice img {
+  cursor: url("../assets/cursors/Hand.cur"), auto;
+  transition: transform 1s ease-out;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid #f0f0f0;
+  border-radius: 6px;
+  margin: 12px 12px;
+  width: 70px;
+}
+.dice img:hover {
+  transform: scale(1.2);
+  border: 1px solid green;
+  border-radius: 6px;
+}
+.dice img:active {
+  transform: scale(0.8);
+  border: 1px solid blue;
+  border-radius: 6px;
+}
+
+.clickerContainer img {
+  cursor: url("../assets/cursors/Hammer.cur"), auto;
+  transition: all 0.2s ease-in-out;
+  position: absolute;
+  bottom: 190px;
+  left: 190px;
+  height: 360px;
+  width: 360px;
+}
+
+.clickerContainer img:hover {
+  transform: scale(1.12);
+}
+
+.clickerContainer img:active {
+  transform: scale(0.88);
+}
+
+/* Style for the sectionBottom container */
+.sectionBottom {
+  position: fixed;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid #336699;
+  background-image: url("../assets/stones.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
+  padding-left: 20px;
+  padding-top: 20px;
+  bottom: 0;
+  left: 0;
+  padding-right: 30px;
+  width: 98%;
+  height: 140px;
+  background-color: #f0f0f0;
+  text-align: right;
+  display: flex;
+  /* Style for the left, center, and right containers */
+}
+.sectionBottom .skills {
+  position: relative;
+  top: -3px;
+  left: 277px;
+  color: black;
+}
+.sectionBottom .sbContainerLeft, .sectionBottom .sbContainerCenter {
+  max-width: 70%;
+  min-width: 15%;
+  height: 50%;
+  background-color: #f0f0f0;
+  margin: 20px 5px;
+  margin-left: -2px;
+}
+.sectionBottom .sbContainerLeft {
+  margin-left: -44px;
+}
+.sectionBottom .sbContainerRight {
+  width: 30%;
+  height: 90%;
+  background-color: #f0f0f0;
+  margin-top: -20px;
+}
+.sectionBottom .sbContainerRight {
+  margin-left: auto;
+  /* This will push the right container to the right */
+}
+.sectionBottom #a, .sectionBottom #b, .sectionBottom #c, .sectionBottom #d, .sectionBottom #e, .sectionBottom #f, .sectionBottom #g, .sectionBottom #h {
+  color: #595959;
+  float: left;
+  clear: left;
+  margin: 0px 0px -12px 0px;
+}
+
+/*# sourceMappingURL=style.css.map */

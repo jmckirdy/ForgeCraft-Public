@@ -1,0 +1,22 @@
+.dice {
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    // height: 160vh;
+    
+
+
+    img {
+        // cursor: pointer;
+        cursor: url('../assets/cursors/Hand.cur'), auto;
+        transition: transform 1s ease-out;
+        transition: all .2s ease-in-out;
+        border: 1px solid #f0f0f0;
+        border-radius: 6px;
+        margin: 12px 12px;
+        width: 70px;
+      }
+    
+      img:hover { transform: scale(1.20); border: 1px solid green; border-radius: 6px;}
+      img:active { transform: scale(0.80); border: 1px solid blue; border-radius: 6px; }
+  }

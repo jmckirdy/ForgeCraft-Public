@@ -1,0 +1,78 @@
+/* Style for the sectionBottom container */
+.sectionBottom {
+    // position: relative;
+    position: fixed;
+
+    font-size: 18px;
+    font-weight: bold;
+    
+    border: 1px solid #336699;
+    background-image:url('../assets/stones.jpg');
+    
+
+    height: 100%;
+    background-position: center;
+    background-repeat: repeat;
+    background-size:contain;
+
+
+    padding-left: 20px;
+    padding-top: 20px;
+    bottom: 0;
+    left: 0;
+    padding-right: 30px;
+    width: 98%;
+    height: 140px;
+    background-color: #f0f0f0;
+    text-align: right;
+    display: flex;
+
+    .skills {
+        position: relative;
+        // float: right;
+        // text-align: center;
+
+        // float, align didn't work so adjust position below
+        top: -3px;
+        left: 277px;
+
+        // color: #333;
+        color: black;
+    }
+    
+    /* Style for the left, center, and right containers */
+    .sbContainerLeft, .sbContainerCenter {
+    max-width: 70%;
+    min-width: 15%;
+    height: 50%;
+    background-color: #f0f0f0;
+    // border: 1px solid #336699;
+    margin: 20px 5px;
+    margin-left: -2px;
+    }
+
+    .sbContainerLeft {
+        margin-left: -44px;
+    }
+
+    .sbContainerRight {
+        width: 30%;
+        height: 90%;
+        background-color: #f0f0f0;
+        // border: 1px solid #336699;
+        margin-top: -20px;
+    }
+    .sbContainerRight {
+        margin-left: auto; /* This will push the right container to the right */
+    }
+
+    #a, #b, #c, #d, #e, #f, #g, #h {
+        color: #595959; 
+        // background-color: aqua;
+        // position: fixed;
+        // margin: 0 0 -20 0;
+        float: left;
+        clear: left; 
+        margin: 0px 0px -12px 0px;
+    }
+}

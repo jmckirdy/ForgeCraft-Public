@@ -1,0 +1,70 @@
+EASIER ONES...
+07- scriptOne, math $/sec update and algo update
+
+13- Update GDD, but fast, finish with quick editing. it's not the old game. add cover graphic. add index at end.(Gale course) 
+14- Update G.Docs info/table data. 5 parts!
+
+Desc: 
+8-Make the game as challenging as it is supposed to be. ie: lower progress ($/sec) when new building is unlocked.
+*do this after quickly reviewing 
+( 
+09-    the skill bars, 
+10-    the building-update tiles code, 
+11-    the store code, 
+12-    the css code 4 img backgrounds 
+) 
+
+
+-------------- ISSUES ------------- june06/2024
+---fix: css bug where store images are absolute on the tooltips.
+-the store imgs with tooltips, do not even scroll (as in css scrollable-content part)
+-tooltips was implemented poorly and html is mixed up in the index.php page @ store section. TOO EMBEDDED.
+not separate enough. You could inject the tooltips with js or as a php include() page. perhaps js is less server related
+an thus quicker.
+
+-tooltips need variables, so u don't need many pages (for each tooltip, yikes!)
+
+
+
+---
+
+More:
+css: get scrollableSection flush with right-side edge of viewport
+css: linear-gradient over dash, dash and scrollableSection style the same colors etc., maybe change grey to beighish, match somehow. could look for a png. png would give clean edge with game background behind it. since it's a repeating loop with the stones.
+css: 
+    1 -- animation to go off with clicks
+    2 -- number vari animation to go off also
+add:build page profile
+add:build page achievements
+
+css:REFACTOR
+    1 -- modularize the js (view all, consider, write on paper, write in ide)
+    2 -- consider writing more php functions, in mylibrary dir.
+    1 -- js score timer every 2 mills, not 1000 like now. 
+    1 -- 
+    1 --
+    1 --
+
+1-get pages connected, ( profile, achievements )
+
+2-delete/replace bad/offensive jokes 
+
+3-?? Possibly move 'Store' header outside the box, so that u can see it more.
+
+4-GET good finishing for dice throw.
+Dice: Win/Lose/Neutral
+
+5-THE STORE CODE is reasonably HARD!!
+  -item buff / de-buff details,
+  -onhover code,
+  -has separate db table data, 
+  -
+
+6-table: Buildings -> building level, should take an array. so that way you can enter LESS data, and then just loop thru to display right array number.
+
+------------
+CONTINUED...
+13-
+
+14-
+

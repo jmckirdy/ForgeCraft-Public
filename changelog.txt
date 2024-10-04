@@ -1,0 +1,133 @@
+CHANGELOG FILE
+*just update every day you add to game, what was accomplished (as in to be shipped)
+
+Nov.13 
+-centered the title.
+
+Nov.15
+-put js loading at start of html FILE
+-switched water, and advanced stats sections, (sbContainers)
+
+Nov.16
+-added users /but broke phpMyAdmin
+-changed color of stats num. text. to yellow
+
+Nov.20
+-Tuned the numbers variables, at the top and also in functions mentioned below.
+-fixed emoji not working in the title.
+ ->fyi; it needed to be in the 3rd arg./(concat rather)... (failed as 1st concat) in the updateScorePerSecond() last line...
+ ->almost made a bug. had to update clay to 1200 in said function
+-also changed setInterval(function()...) just below that
+
+-also changed the word 'hut' in the building buttons to $ where needed.
+-discovered that 999qT (quintillion) is the highest the score will update without the browser resorting to 10e17 notation.
+-10Trillion works for updating score with clicks but at some point prior to above it will not fire at all.
+
+-late at nightpost 7pm, into family time, I needed to revisit the design to close all the open leaks 
+in the game loops...so UPDATED G.D.D if that makes sense. 
+also the events / brainstorm excel sheet
+
+-added the GDD, and GDD_notes to app directory
+
+Nov.24
+-PRINTED final edit lol of the GDD, -> for redPen editing
+-finalized main mockups,
+-made the array squares test files
+
+-BUILT the incrementClicks() function: for increasing click value.
+
+Nov.26
+-tested that i can change the skill element with new function.
+
+
+
+TODO::Nov.25-26: do editing, experiment with closer fonts, consider moving to GoogDoc, Windows<.?   or other service,
+--coding: putty into linux, do linuxCourse, do js array/test studying project.
+
+Nov.27
+-trimmed down ForgeCraft git folder, changed to said name from ForgeLife.
+  -->deleted useless files, css dir, stuff dir, resized 2 pngs...
+-started pushing to git more, using projects, vc proper.
+
+Nov.28
+-checking git to see how commits are recorded; as main/default, or master...(want master)
+
+Dec.07
+-moved programming to wamp folder, connected to db
+-finished GGD, sent to Partner
+
+Dec.08
+-created register/login page
+-SCSS: style, _messageCons, _titleCon, index.html
+
+**NEED 2 git push, fix .rtf files in git,  make css grey into transprt, 
+-fix top corners
+-add array to skills js part.
+
+-aside+make gdd cover, print for final editing.
+
+Dec.09 2023
+-centered title and got .header class all on one line.  *had to re-order the HTML only, the css was fine.
+-changed scss filenames to _header, _buildingsShop.
+-changed the names of some buildings in html.
+
+Jan.15 2024
+-trying to update git
+
+Jan.27 2024
+-integrated dice section
+-made bronze, silver, gold forge, and got more assets
+-added coop, the shop buildings
+-made changes to the css 
+
+Jan.31
+-wrote and generated jokes and quotes for text portion
+
+Feb.01
+-updated README file
+-added fonts, store upgrade pictures, and store title.
+
+Feb.04
+-added audioElement.play() script and <audio> tag. to index.html
+
+Feb.05
+- added cursor files, linked in the css, still not working
+- got music working but, needs to loop
+- organized ggd -- found and added store icons(pic, name, desc, css)
+- persons pics with story (bioshock scr shot)
+- worked on profile, achievmts a little
+- decided to simply extend @keyframes as single css statement instead of heavy js for creating a bounce with the clicker. ie; more procedural lines to make forge bounce.
+
+===== 2024-02-29 =====
+- added 5 water buildings
+- centered mainWindow
+- connected and viewed db thru mainWindow
+- added 5 shelter buildings
+- created buildings grid
+
+===== 2024-03-06 =====
+- in a diff. dir. created the login/register page html, css
+- cloned open source scroll js, put in wamp folder
+- added scroll jpgs to (working) local directory
+- design heavy day, sourced art assets/ tweaked gdd.
+
+===== 2024-03-06 =====
+- implemented css
+
+===== 2024-03-17 =====
+css changes to header.scss, made .musicIcon use Hand.cur cursor (while NOT a link)
+changed css for profile, ach box
+Hand.cur working for shop icons, dice, and links
+cursor, hammer .cur files now found by sass compiler
+imagetest working 100%
+added imagetest, showimage, moved the login creds
+changed mysqli() in main.inc.php to use buildings table
+
+===== 2024-06(JUNE)-05 =====
+studied code, familiarized with self
+
+===== 2024-06(JUNE)-30 =====
+4 commits
+
+===== 2024-07(JULY)-02 =====
+chatted with gpt about how to isolate the tooltips

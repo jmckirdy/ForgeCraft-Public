@@ -1,0 +1,70 @@
+.header {
+    width: 100%;
+}
+
+// a:hover  {
+//     text-decoration: underline;
+// }
+
+
+.scoreContainer {
+    float: inline-start;
+    width: 15%; /* Adjust as needed */
+    background-color: $transbg;
+    padding: 10px;
+    // border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    border: $transborder;
+    // border-radius: 12px;
+    
+    img {
+        position: relative;
+        float: right;
+        width: 74px; 
+        height: 74px;
+        padding: 2px 2px 2px 2px;
+        margin-bottom: -5px;
+        margin-top: -32px;
+    }
+}
+
+
+
+
+
+.gameTitle {
+    float: left;
+    width: 67%; /* Adjust as needed */
+    text-align: center;
+    
+}
+
+.floatRight {
+    float: right;
+    width: 15%; /* Adjust as needed */
+    background-color: #99999957;
+    padding: 0px;
+    // border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid #757373b0;
+
+    a {
+        // padding: 12px 12px 10px 10px;
+        padding-left: 12px;
+        padding-right: 12px;
+        // padding-top: 8px;
+
+    }
+
+    .musicIcon {
+        float: right;
+        position: relative;
+        margin-top: -18px;
+        cursor: url('../assets/cursors/Hand.cur'), auto;
+        
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}

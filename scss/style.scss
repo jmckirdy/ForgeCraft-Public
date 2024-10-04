@@ -1,0 +1,58 @@
+@import 'config';
+
+html {
+    cursor: $cursorcur;
+    // margin: 0;
+}
+
+
+body {
+    font-family: 'Vinque Regular', sans-serif;
+    background-image: url("../assets/b02_background.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    // margin: 44px 44px;
+    // padding: 12px 12px
+    a {
+        cursor: $handcur;
+        text-decoration: none;
+    }
+    
+    a:hover  {
+        text-decoration: underline;
+    } 
+}
+
+@font-face {
+    font-family: 'Vinque Regular';
+    src: url('../fonts/vinque\ rg.otf') format('truetype');
+}
+
+@import 'header';
+@import 'mainWindow';
+
+@import 'buildingsShop';
+// @import 'tooltip';
+
+@import 'messageConsole';
+@import 'dice';
+
+
+  
+.clickerContainer img {
+    // position: relative;
+    cursor: $hammercur;
+    transition: all .2s ease-in-out;
+    position: absolute;
+    bottom: 190px;
+    left: 190px;
+    height: 360px; 
+    width: 360px;
+}
+
+
+.clickerContainer img:hover { transform: scale(1.12); }
+.clickerContainer img:active { transform: scale(0.88); }
+
+@import 'sectionBottom';

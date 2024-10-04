@@ -1,0 +1,49 @@
+#container {
+    position: relative;
+    // margin-top: -65px;
+    // left: 50;
+    margin: auto;
+    margin-left: 8.5%;
+    max-width: 400px;
+    max-height: 180px;
+    // margin: 0 5px 0 0;    
+    padding: 0px;
+    
+    @font-face {
+        font-family: 'Vinque Regular';
+        src: url('../fonts/vinque\ rg.otf') format('truetype');
+    }
+
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    margin-top: -8px;
+    // color: #333;
+    color: black;
+}
+
+#message {
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #fff;
+    // padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+p#sender {
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+p#text {
+    font-size: 14px;
+    color: #555;
+}

@@ -1,0 +1,25 @@
+type testfilecmd.txt \
+
+dump the contents of a file into another file. eg: type \append thisfile.txt > thatfile
+
+
+
+/////////////////  TODO:
+
+  ^write darken lighten scss functions (for store/achiev icons)
+
+  &hammer swing animation. (look at phaser or alike, css keyframes, jsMaybe)
+  &(!hard) mouse onHover() shows store item db details. + styled
+
+
+
+////  CODE REFACTOR / (BASIC)CLEAN-UP
+  ^extract most functions into their own file, and organize. eg: \jsdir\clicker.js
+  ^fix buttun dinging. file still playing instead of instant reset, better button noise
+  ^make /admindir to store functs and per 'Lesson 6' store pdf --Gale  
+
+  &(old/hard) move 'Skills h3 to centered above.
+  &(old/hard) 
+\\\\\\\\\\\\\\\\  END
+
+test ting.

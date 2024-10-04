@@ -1,0 +1,155 @@
+#darken{
+    background-color: darken($color: #18bb13, $amount: 100%);
+}
+
+.sectionRight {
+    
+    float: right;
+    width: 30%;
+    // margin-top: -2%;
+    // cursor: url("../assets/cursors/Hand.cur") auto;
+}
+
+.scrollable-section {
+    max-height: 690px; /* Set the maximum height of the scrollable section */
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden;
+    background-color: rgba(32, 178, 171, 0.642); /* Set the background color */
+    border: 3px dashed darkslategray;
+}
+
+.shopButton {
+    // position: inherit;
+
+    // overflow-y:visible;
+
+    cursor: url('../assets/cursors/Hand.cur'), auto;
+
+    background-color: #b5b5b5;
+    transition: all .2s ease-in-out;
+    border-radius: 10px;
+    width: 94%;
+    margin: auto;
+    // margin: 10px 0px 10px 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.shopButton:hover {
+    background-color: #c7c7c7;
+    transition: .2x ease-in-out;
+}
+
+.shopButton #image {
+    // position: relative;
+
+    /* width: 155px;
+    height: 155px; */
+    background-color: #679e6500;
+    width: 25%;
+    // position: relative;
+
+}
+
+.shopButton img {
+    // position: static;
+    width: 80px;
+    height: 80px;
+}
+
+.shopButton #nameAndCost p {
+    margin: 0px;
+    width: 60%;
+}
+
+.shopButton #nameAndCost p:first-of-type {
+    font-size: 24px;
+}
+
+.shopButton #amount {
+    font-size: 48px;
+    color: #595959;
+    font-family: roboto;
+    width: 15%;
+}
+
+.unselectable {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.shopButton #yeild {
+    position: relative;
+    text-align: left;
+    width: 50%;
+    margin: auto;
+    // margin-top: -62px;
+
+    /* font-size: 16px; */
+    /* color: #595959; */
+    /* font-family: roboto; */
+}
+
+.store-title {
+    text-align: center;
+    font-size: 30px;
+    margin-top: -6px;
+    margin-bottom: 3px;
+    // background-color: rgba(95, 158, 160, 0.308);
+    background-color: #fa78213f;
+
+    // background-color: lightseagreen;
+    border-top: 3px dashed darkslategray;
+    margin: 8px 0px 0px 0px;
+    border: 1px solid black;
+}
+
+.store {
+    position: relative;
+
+    // cursor: url("../assets/cursors/Hand.cur") auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+    border-collapse: collapse;
+    // height: 0px;
+    // background-color: #b5b5b5;
+    background-color: cadetblue;
+    border: 1px solid black;
+    border-top: cadetblue;
+
+    .upgrade {
+        width: 54px;
+        height: 54px;
+
+        // cursor: url("../assets/cursors/Hand.cur") auto;
+
+        border: 1px solid #313131;
+        padding: 4px 4px;
+        margin: 4px 24px 0px 4px;
+        align-items: center;
+
+        :hover {
+            transform: scale(1.2);
+        }
+    }
+}
+
+
+// .flex-container {
+//     display: flex;
+//     flex-wrap: wrap;
+//     background-color: DodgerBlue;
+//   }
+  
+//   .flex-container > div {
+//     background-color: #f1f1f1;
+//     width: 100px;
+//     margin: 10px;
+//     text-align: center;
+//     line-height: 75px;
+//     font-size: 30px;
+//   }
